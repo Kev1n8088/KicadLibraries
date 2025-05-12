@@ -1,7 +1,7 @@
-(footprint "SQJ500AEP-T1_GE3_VIS"
-	(version 20240108)
+(footprint "PowerPak1212-8-Dual"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "SI7232DN-T1-GE3 ")
 	(property "Reference" "REF**"
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "SQJ500AEP-T1_GE3_VIS"
+	(property "Value" "PowerPak1212-8-Dual"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -26,18 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "189bae42-e481-44e2-a7fc-376986f4e2ae")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -170,35 +158,35 @@
 	(pad "1" smd rect
 		(at -1.32 -0.975)
 		(size 0.76 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "4fbdbc48-0d53-4b72-bde4-3c1d9c10e88d")
 	)
 	(pad "2" smd rect
 		(at -1.32 -0.325)
 		(size 0.76 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "8d2bf264-c101-4afe-93b1-0ae1b0fcec53")
 	)
 	(pad "3" smd rect
 		(at -1.32 0.325)
 		(size 0.76 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "6bf2c89a-72f3-4a03-88ad-b542d599a347")
 	)
 	(pad "4" smd rect
 		(at -1.32 0.975)
 		(size 0.76 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "fe798936-d6ce-44b4-b85f-dfb369d85011")
 	)
 	(pad "5" smd custom
 		(at 0.645 -0.695)
 		(size 1.83 1.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -233,7 +221,7 @@
 	(pad "6" smd custom
 		(at 0.645 0.695)
 		(size 1.83 1.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -263,5 +251,17 @@
 			)
 		)
 		(uuid "26b708b0-5dbb-440d-8f56-c21e8208f2c1")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jebid/Documents/KiCad/9.0/3dmodels/SI7232DN-T1-GE3.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
 	)
 )
