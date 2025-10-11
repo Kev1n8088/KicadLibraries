@@ -255,7 +255,7 @@
 	(embedded_fonts no)
 	(model "C:/Users/jebid/Documents/KiCad/9.0/3dmodels/SI7232DN-T1-GE3.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0.2 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

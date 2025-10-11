@@ -2151,7 +2151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FCU2025Lib:SQJ500AEP-T1_GE3_VIS"
+		(property "Footprint" "FCU2025Lib:PowerPak1212-8-Dual"
 			(at -5.334 -2.54 0)
 			(effects
 				(font
