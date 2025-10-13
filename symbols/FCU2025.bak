@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ANT-916-JJB-RA:XDCR_ANT-916-JJB-RA"
+		(property "Footprint" "FCU2025Lib:XDCR_ANT-916-JJB-RA"
 			(at 0 0 0)
 			(effects
 				(font
